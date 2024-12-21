@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Logs
+*.log
+*.out
+*.err
+
+# Test results
+coverage.xml
+*.cover
+*.py,cover
+*.pytest_cache/
+htmlcov/
+
+# Environment variables and secrets
+.env
+*.env.*
+
+# FastAPI specific
+instance/
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# Poetry files
+poetry.lock
+
+# Pyright static typing
+.pyright/
